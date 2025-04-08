@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'TransferModule_Example' do
+  pod 'TransferModule', :path => '../'
+
+  target 'TransferModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
