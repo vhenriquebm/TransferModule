@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct TransferView: View {
+public struct TransferView: View {
     @State private var recipientName: String = ""
     @State private var recipientAccountNumber: String = ""
     @State private var transferAmount: String = ""
