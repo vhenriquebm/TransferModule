@@ -8,7 +8,7 @@ public struct TransferView: View {
     @State private var showAlert: Bool = false
     @State private var alertMessage: String = ""
 
-    var body: some View {
+    public var body: some View {
         NavigationView {
             Form {
                 Section(header: Text("Destinatário")) {
