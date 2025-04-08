@@ -13,8 +13,9 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'vhenriquebm' => 'vhenriquebm@gmail.com' }
   s.source           = { :git => 'https://github.com/vhenriquebm/TransferModule.git', :tag => s.version.to_s }
-
-  s.ios.deployment_target = '13.0' # Versão mínima para SwiftUI
+  s.swift_versions = ['5.0', '5.1', '5.2', '5.3', '5.4', '5.5', '5.6', '5.7', '5.8', '5.9', '5']
+  
+  s.ios.deployment_target = '15.6'
 
   s.source_files = 'TransferModule/Classes/**/*'
 
