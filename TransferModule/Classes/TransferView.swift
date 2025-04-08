@@ -7,6 +7,8 @@ public struct TransferView: View {
     @State private var isTransferring: Bool = false
     @State private var showAlert: Bool = false
     @State private var alertMessage: String = ""
+    
+    public init(){}
 
     public var body: some View {
         NavigationView {
