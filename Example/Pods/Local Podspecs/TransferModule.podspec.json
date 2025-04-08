@@ -1,0 +1,22 @@
+{
+  "name": "TransferModule",
+  "version": "0.1.0",
+  "summary": "A short description of TransferModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/vhenriquebm/TransferModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "vhenriquebm": "vhenriquebm@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/vhenriquebm/TransferModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TransferModule/Classes/**/*"
+}

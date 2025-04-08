@@ -1,0 +1,16 @@
+PODS:
+  - TransferModule (0.1.0)
+
+DEPENDENCIES:
+  - TransferModule (from `../`)
+
+EXTERNAL SOURCES:
+  TransferModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TransferModule: 47ed1bf7f8423a2d04604c2ec4aa28c647e3083d
+
+PODFILE CHECKSUM: 9279f69dd9e7033a208a2dbc49d362a7cecf2f07
+
+COCOAPODS: 1.15.2
